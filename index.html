@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Timer</title>
+  </head>
+  <body>
+    <div id="timer">00:00</div>
+    <div id="timer-buttons">
+      <button id="addMinute">+1 минута</button>
+      <button id="subtractMinute">-1 минута</button>
+      <button id="addSecond">+1 сек</button>
+      <button id="subtractSecond">-1 сек</button>
+    </div>
+    <div id="control-buttons">
+      <button id="start">Старт</button>
+      <button id="pause">Пауза</button>
+      <button id="reset">Сброс</button>
+    </div>
+    <div id="score">
+      <div id="teamA">
+        <button id="addGoalA">+1 гол</button>
+        <button id="subtractGoalA">-1 гол</button>
+        <!-- <span id="goalCountA">0</span> -->
+      </div>
+      <div class="score_wrap">
+        <span id="goalCountA">0</span>
+        <span>-</span>
+        <span id="goalCountB">0</span>
+      </div>
+      <div id="teamB">
+        <button id="addGoalB">+1 гол</button>
+        <button id="subtractGoalB">-1 гол</button>
+        <!-- <span id="goalCountB">0</span> -->
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
